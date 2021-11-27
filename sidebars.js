@@ -105,6 +105,13 @@ module.exports = {
         'developers/architecture', 
         'developers/debugging', 
         'developers/developing-new-provider',
+        {
+          type: 'category',
+          label: 'Tutorial',
+          items: [
+            'developers/tutorial/overview'
+          ],
+        },
         'developers/migrations',
       ],
     },
