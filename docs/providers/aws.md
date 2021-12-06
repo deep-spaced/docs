@@ -25,15 +25,15 @@ make build
 Running locally:
 
 1. Start a local database:
-    ```
+    ```bash
     make pg-start
     ```
 2. Configure the `config.hcl`
+    ```bash
+    make os=Linux arch=arm64 install 
+    ./cloudquery init aws
     ```
-    cloudquery init aws
+3. Open the `config.hcl`
+    ```bash
+    make run
     ```
-3. open the `config.hcl`
-
-```
-make run
-```
