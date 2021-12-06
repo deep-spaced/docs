@@ -41,8 +41,10 @@ module.exports = {
         {to: 'https://cloudquery.io/blog', label: 'Blog', position: 'right'},
         {
           href: 'https://github.com/cloudquery/cloudquery',
-          label: 'GitHub',
           position: 'right',
+          label: 'Give Star',
+          className: 'header-github-link',
+          'aria-label': 'GitHub repository',
         },
       ],
     },
